@@ -5,6 +5,13 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamSpark.Demo02.Web", "TeamSpark.Demo02.Web\TeamSpark.Demo02.Web.csproj", "{4E3FC223-3B90-4BB5-9E26-EC731C04F427}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamSpark.Demo02.Web.Test", "TeamSpark.Demo02.Web.Test\TeamSpark.Demo02.Web.Test.csproj", "{18BB9EB6-8A24-4100-941D-1C76A4512204}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{05F44FD0-FBD2-4420-9787-A27AD521B78D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{4E3FC223-3B90-4BB5-9E26-EC731C04F427}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E3FC223-3B90-4BB5-9E26-EC731C04F427}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E3FC223-3B90-4BB5-9E26-EC731C04F427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BB9EB6-8A24-4100-941D-1C76A4512204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BB9EB6-8A24-4100-941D-1C76A4512204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BB9EB6-8A24-4100-941D-1C76A4512204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BB9EB6-8A24-4100-941D-1C76A4512204}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
